@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="asciidoc">
+  <snippet>
+    <text><![CDATA[ifeval::["{}" == ""]
+
+endif::[]]]></text>
+    <description>ifeval</description>
+    <tag>ifeval</tag>
+  </snippet>
+  <snippet>
+    <text><![CDATA[*$GEDIT_SELECTED_TEXT*]]></text>
+    <description>bold</description>
+    <accelerator><![CDATA[<Primary>b]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[== $GEDIT_SELECTED_TEXT]]></text>
+    <description>Heading 1</description>
+    <accelerator><![CDATA[<Primary>1]]></accelerator>
+  </snippet>
+  <snippet>
+    <tag>note</tag>
+    <text><![CDATA[
+[NOTE]
+====
+
+$1{$GEDIT_SELECTED_TEXT}
+
+====]]></text>
+
+    <description>Note</description>
+    <accelerator><![CDATA[<Primary><Shift>n]]></accelerator>
+  </snippet>
+
+</snippets>
+
